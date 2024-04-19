@@ -1,0 +1,9 @@
+use blogs-db
+switched to db blogs-db
+db.createUser({ user:"asif", pwd:"12345", roles: ["readWrite"]})
+
+mongodb://asif:12345@localhost:27017/blogs-db
+
+const redisUrl = 'redis://127.0.0.1:6379';
+const password = '12345';
+
